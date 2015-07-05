@@ -11,6 +11,6 @@ public class BarTest {
     @Test
     public void testAdd() {
         Bar bar = new Bar();
-        assertEquals(3, bar.add(1, 1));
+        assertEquals(2, bar.add(1, 1));
     }
 }
